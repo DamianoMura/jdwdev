@@ -1,4 +1,4 @@
-//model of the databaserelative to authentication
+//queries used to create the database relative to authentication
 //it will serve the authentication middleware to retrieve roles permissions and sessions 
 const db_tables = [
 "CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER NOT NULL AUTO_INCREMENT UNIQUE `name` VARCHAR(255) NOT NULL, `email` VARCHAR(255) NOT NULL UNIQUE `password` VARCHAR(255) NOT NULL, PRIMARY KEY(`id`));",
@@ -26,4 +26,3 @@ const db_tables = [
 
 
 
-module.exports=db_tables;
