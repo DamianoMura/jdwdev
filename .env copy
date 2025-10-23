@@ -1,0 +1,5 @@
+#APP INFO 
+APP_NAME="JDWDEV.IT"
+
+#api infos
+API_PORT = 3000
